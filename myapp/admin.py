@@ -14,4 +14,9 @@ class DemoModelCustomAdmin(admin.ModelAdmin):
 
 admin.site.register(DemoModel, DemoModelCustomAdmin)
 
-#github : uttampatel007
+# github : uttampatel007
+# https://github.com/uttampatel007/django-admin-image
+# Media root or Media Url
+# Urls.py stactic setting
+# Pillow 
+# Custom Admin Class
