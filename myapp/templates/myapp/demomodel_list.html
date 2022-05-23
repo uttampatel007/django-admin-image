@@ -1,0 +1,5 @@
+{% for article in object_list %}
+    <li><a href="{% url 'myapp:detail-demo' article.id %}">{{ article.title }}</a></li>
+{% empty %}
+    <li>No articles yet.</li>
+{% endfor %}
